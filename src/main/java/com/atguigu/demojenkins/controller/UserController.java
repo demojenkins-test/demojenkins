@@ -13,4 +13,11 @@ public class UserController {
     public String findAll() {
         return "hello";
     }
+
+
+    @GetMapping
+    @RequestMapping("/test")
+    public String getAll() {
+        return "jenkins+docker+springboot";
+    }
 }
